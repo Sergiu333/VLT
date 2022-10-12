@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#progress {
+    background:linear-gradient(to right, #4dc0b5 var(--scroll), transparent 0);
+}
+
+
+.text-hero {
+    text-align: center;
+    font-family: "Vidaloka",Sans-serif;
+    font-size: 35px;
+
+}
+
+#map {
+    height: 586px;
+    width: 100%;
+}
+
+.Container {
+    max-width: 1180px;
+    margin: 0px auto;
+    padding: 50px 0px;
+    margin-top: 100px;
+
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+
+
+}
+
+.gallery a {
+    height: 200px;
+    width: 300px;
+
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 3px 5px #000;
+}
+
+.gallery a img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.gallery a img:hover {
+    transform: scale(1.04);
+}
+
+.title {
+    background: #AA210F;
+    height: 55px;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+
+
+}
